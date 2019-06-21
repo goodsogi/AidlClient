@@ -1,4 +1,4 @@
-package com.tjsample.remoteserver;
+package com.tjsample.remoteclient;
 
 import android.content.ComponentName;
 import android.content.Intent;
@@ -7,7 +7,9 @@ import android.os.IBinder;
 import android.os.RemoteException;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+
+import com.tjsample.remoteserver.IMyAidlCallbackInterface;
+import com.tjsample.remoteserver.IMyAidlInterface;
 
 public class MainActivity extends AppCompatActivity {
 

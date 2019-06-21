@@ -1,4 +1,4 @@
-package com.tjsample.remoteserver;
+package com.tjsample.remoteclient;
 
 import org.junit.Test;
 

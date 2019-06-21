@@ -1,4 +1,4 @@
-package com.tjsample.remoteserver;
+package com.tjsample.remoteclient;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
